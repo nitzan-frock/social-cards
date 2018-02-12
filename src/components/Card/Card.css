@@ -1,15 +1,15 @@
 .Card {
+    height: 400px;
+    width: 600px;
     display: grid;
-    grid-template-columns: 500px;
-    grid-template-rows: 150px 250px 300px;
-    height: 250px;
-    width: 500px;
-    margin: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 1.5fr 2.5fr 1fr;
+    grid-gap: 0.75rem;
+    margin: 25px auto;
     box-shadow: 0 3px 5px 0;
 }
 
-@media (min-width: 501px) {
-    .Card {
-        width: 500px;
-    }
+.CardHeader {
+    grid-column: 1/1;
+    grid-row: 1/2;
 }
