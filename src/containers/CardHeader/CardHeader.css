@@ -11,11 +11,5 @@
     height: 60px;
     width: 60px;
     margin: 5px 5px;
-    box-sizing: border-box;
     border-radius: 100%;
-    display: inline-block;
-}
-
-.PersonInfo {
-    display: inline-block;
 }
