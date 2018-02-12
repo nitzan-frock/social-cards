@@ -1,0 +1,15 @@
+.Card {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 150px 250px 300px;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 3px 5px 0;
+}
+
+@media (min-width: 501px) {
+    .Card {
+        width: 500px;
+    }
+}

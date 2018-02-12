@@ -1,0 +1,17 @@
+.CardHeader {
+    grid-template-columns: 60px 440px;
+    grid-template-rows: 150px;
+}
+
+.Portrait {
+    height: 60px;
+    width: 60px;
+    margin: 4px 4px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    display: block;
+}
+
+.PersonInfo {
+    display: block;
+}

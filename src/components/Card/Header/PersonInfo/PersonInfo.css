@@ -1,0 +1,13 @@
+.PersonalInfo {
+}
+
+.Name {
+    font-size: 12pt;
+    display: inline-block;
+}
+
+.Bio {
+    margin: auto;
+    font-size: 10pt;
+    display: inline-block;
+}
