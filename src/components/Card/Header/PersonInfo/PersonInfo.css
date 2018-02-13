@@ -1,16 +1,13 @@
 .PersonalInfo {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 1fr;
-
+    padding: 0 5px;
 }
 
 .Name {
     font-size: 12pt;
+    margin-bottom: 0;
 }
 
 .Bio {
     font-size: 10pt;
+    margin-top: 0;
 }
